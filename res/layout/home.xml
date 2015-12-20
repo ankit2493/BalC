@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:textSize="30sp" android:text="Bal-C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/title" android:layout_gravity="center"></TextView>
+    <Button style="@style/home_button" android:text="Add a new record" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/add_record" android:layout_gravity="center_horizontal" ></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/home_button" android:text="View Previous Record" android:layout_gravity="center_horizontal" android:id="@+id/view_record"></Button>
+    
+</LinearLayout>

@@ -1,0 +1,18 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="10sp" android:id="@+id/relativeLayout1"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:layout_width="fill_parent">
+	<DatePicker android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/datePicker1"
+		android:layout_centerHorizontal="true"></DatePicker>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout1"
+		android:layout_below="@+id/datePicker1"
+		android:layout_centerHorizontal="true" android:baselineAligned="true">
+		<Button android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:id="@+id/btncancel" android:text="Cancel"></Button>
+		<Button android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:text="Save" android:id="@+id/btnsave"></Button>
+	</LinearLayout>
+</RelativeLayout>
